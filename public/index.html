@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dawam - HR, leave and attendance for small companies</title>
+<meta name="description" content="Dawam: bilingual Arabic/English HR system with leave requests and approvals, check-in and check-out with shifts, offline check-in, a payroll summary and role-based access.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230f766e'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='white' stroke-width='5'/%3E%3Cpath d='M32 23v10l7 4' stroke='white' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div id="app" class="shell">
+  <aside class="side" id="side"></aside>
+  <div class="scrim" id="scrim"></div>
+  <div class="main">
+    <header class="top" id="top"></header>
+    <div id="banner"></div>
+    <main id="view" tabindex="-1" aria-live="polite"></main>
+  </div>
+</div>
+<div id="modal" class="modal-bg" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

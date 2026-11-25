@@ -1,0 +1,10 @@
+{
+  "name": "dawam-hr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dawam - bilingual (Arabic RTL / English) HR, leave and attendance system for small companies: employees, leave requests and approvals, check-in/out with shifts, offline check-in, payroll summary, roles.",
+  "scripts": { "dev": "node dev-server.mjs", "test": "node test/logic.test.mjs" },
+  "dependencies": { "@vercel/blob": "^1.0.0" },
+  "license": "MIT"
+}
